@@ -69,10 +69,44 @@ body {
     color: rgb(218, 164, 213);
 }
 
-.winner {
-    font-size: 7rem;
+.end-game {
+    font-size: 6rem;
+    position: absolute;
+    background: rgb(249, 184, 242);
+    color: rgb(218, 164, 213);
+    border: solid 2px rgb(218, 164, 213);
+    padding: 15px;
+    top: 15vw;
+    left: 15vw;
+    width: 60vw;
+    height: 60vw;
+    max-width: 700px;
+    max-height: 700px;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.no-winner {
+.in-game {
     visibility: hidden;
+}
+
+.new-game {
+    display: block;
+    font-size: 2rem;
+    background: rgb(249, 184, 242);
+    color: rgb(218, 164, 213);
+    border: solid 2px rgb(218, 164, 213);
+    padding: 10px;
+    margin: auto;
+    transition: all .5s;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.new-game:hover {
+    background: rgb(218, 164, 213);
+    color: rgb(249, 184, 242);
 }
